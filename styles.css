@@ -1,0 +1,117 @@
+:root {
+  --black: #353535;
+  --light-black: #3d3d3d;
+  --dark-gray: #5a537b;
+  --light-gray: #f4f4f4;
+  --purple: #6943ff;
+  --light-purple: #b295ff;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h2 {
+  margin: 0;
+}
+
+body,
+input {
+  text-align: center;
+}
+
+header,
+input {
+  color: var(--white);
+}
+
+input,
+.container {
+  margin: 0 auto;
+}
+
+button,
+.card {
+  background: var(--white);
+}
+
+input,
+button {
+  border-radius: 0.2rem;
+}
+
+body {
+  color: var(--black);
+  background: var(--light-gray);
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 90%;
+}
+
+header {
+  background: var(--purple);
+  padding: 3rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  margin-top: 0;
+}
+
+h2 {
+  color: var(--dark-gray);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  width: 2rem;
+  margin: 0.5rem 1rem;
+  fill: var(--dark-gray);
+}
+
+input {
+  width: 7rem;
+  display: block;
+  font-size: 3rem;
+  background: none;
+  border: 2px solid var(--light-purple);
+  padding: 0.5rem 1rem;
+  -moz-appearance: textfield;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  color: var(--light-black);
+  padding: 0.7rem 1.7rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 2rem 1rem;
+  margin: 1rem auto;
+  max-width: 50rem;
+}
+
+@media screen and (min-width: 603px) {
+  .card {
+    margin: 2rem auto;
+  }
+}
