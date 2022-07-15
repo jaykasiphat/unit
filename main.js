@@ -5,7 +5,7 @@
 */
 
 const roundTo3Dc = function(number) {
-  return +(Math.round(number + "e+3") + "e-3");
+  return +(Math.round(number + 'e+3') + 'e-3');
 };
 
 const convertLength = function(qty, conversion) {
@@ -64,6 +64,7 @@ const displayResults = function() {
 
   // Clear input value
   qtyInput.value = '';
+  qtyInput.placeholder = `${qty}`;
 };
 
 const btn = document.querySelector('button');
