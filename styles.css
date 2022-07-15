@@ -108,6 +108,7 @@ button {
   padding: 2rem 1rem;
   margin: 1rem auto;
   max-width: 50rem;
+  word-wrap: break-word;
 }
 
 @media screen and (min-width: 603px) {
